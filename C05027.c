@@ -24,6 +24,6 @@ int main(){
 		maxy=min(maxy,a[cnt].y);
 	}
 
-	printf("%d",maxy*maxx);
+	printf("%lld",(long long)maxy*maxx);
 	return 0;
 }
